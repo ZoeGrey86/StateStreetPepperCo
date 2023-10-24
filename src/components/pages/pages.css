@@ -1,0 +1,14 @@
+h1 {
+    display: block;
+    text-align: center;
+    font-weight: bolder;
+}
+
+p {
+    display: block;
+    text-align: center;
+    font-size: large;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 1rem;
+}
