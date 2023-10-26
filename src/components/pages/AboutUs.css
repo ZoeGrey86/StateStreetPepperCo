@@ -1,0 +1,56 @@
+.about-us-container {
+    display:block;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  /* Styling for each individual profile */
+  .profile {
+    width: 30%; /* Adjust as needed */
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    background-color: crimson;
+    margin: 3%;
+    border-radius: 25%;
+    display:flexbox;
+  }
+  
+  /* Profile picture styling */
+  .profile-picture {
+    width: 150%;
+    height: 150%;
+    border-radius: 50%;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+  .profile-picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  /* Name and title styling */
+  .profile-name {
+    font-size:xx-large;
+    font-weight: bold;
+    margin: 10px 0;
+    text-align: center;
+  }
+  
+  .profile-title {
+    font-size: 1rem;
+    font-size: x-large;
+    text-align: center;
+    color:black;
+  }
+  
+  /* Bio text styling */
+  .profile-bio {
+    margin-top: 10px;
+    font-size:large;
+    line-height: 1.4;
+    color: #333;
+  }
